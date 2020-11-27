@@ -36,8 +36,8 @@ public class Detail extends AppCompatActivity {
 
         step.setText(String.valueOf(uStep));
         time.setText(String.valueOf(uTime));
-        metre.setText(String.valueOf(metresRun));
-        calories.setText(String.valueOf(caloriesBurned));
+        metre.setText(String.valueOf(metresRun + " m"));
+        calories.setText(String.valueOf(caloriesBurned + " Cal"));
     }
     public void doReturn(View view) {
         //switch to First page
